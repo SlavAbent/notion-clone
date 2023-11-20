@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f3cde54-b8f8-4e03-aa88-99a0822ce494" name="Changes" comment="add trash box" />
+    <list default="true" id="5f3cde54-b8f8-4e03-aa88-99a0822ce494" name="Changes" comment="api convex">
+      <change afterPath="$PROJECT_DIR$/app/(main)/(routes)/documents/[documentId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(main)/_components/navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(main)/_components/title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(main)/_components/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(main)/_components/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/convex/documents.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/documents.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +21,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="search" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,6 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "create-navbar",
     "last_opened_file_path": "/Users/astoe1/WebstormProjects/petptojects/next/notionClone",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -41,7 +57,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/astoe1/WebstormProjects/petptojects/next/notionClone/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -50,11 +66,12 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(main)/(routes)/documents" />
       <recent name="$PROJECT_DIR$/app/(root)" />
       <recent name="$PROJECT_DIR$/app/(auth)/(routes)" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.convex">
     <configuration name="convex" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -110,6 +127,8 @@
       <workItem from="1700124462561" duration="5936000" />
       <workItem from="1700156242707" duration="28000" />
       <workItem from="1700156810820" duration="5640000" />
+      <workItem from="1700387303441" duration="2970000" />
+      <workItem from="1700487757972" duration="4372000" />
     </task>
     <task id="LOCAL-00001" summary="create sidebar">
       <option name="closed" value="true" />
@@ -167,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700150890405</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="api convex">
+      <option name="closed" value="true" />
+      <created>1700387466940</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700387466940</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +219,7 @@
     <MESSAGE value="add document list" />
     <MESSAGE value="add archive functionality" />
     <MESSAGE value="add trash box" />
-    <option name="LAST_COMMIT_MESSAGE" value="add trash box" />
+    <MESSAGE value="api convex" />
+    <option name="LAST_COMMIT_MESSAGE" value="api convex" />
   </component>
 </project>
