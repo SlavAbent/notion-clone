@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f3cde54-b8f8-4e03-aa88-99a0822ce494" name="Changes" comment="add Banner, Menu, Menu Skeleton">
-      <change afterPath="$PROJECT_DIR$/app/api/edgestore/[...edgestore]/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/cover.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/modals/cover-image-modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/singe-image-dropzone.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/use-cover-image.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/edgestore.ts" afterDir="false" />
+    <list default="true" id="5f3cde54-b8f8-4e03-aa88-99a0822ce494" name="Changes" comment="add cover image">
+      <change afterPath="$PROJECT_DIR$/components/editor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/error.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(main)/(routes)/documents/[documentId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(main)/(routes)/documents/[documentId]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/providers/modal-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/providers/modal-provider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/toolbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/toolbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convex/documents.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/documents.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(main)/(routes)/documents/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(main)/(routes)/documents/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(main)/_components/item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(main)/_components/item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(main)/_components/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(main)/_components/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/edgestore/[...edgestore]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/edgestore/[...edgestore]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/cover.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/cover.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/modals/cover-image-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/modals/cover-image-modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/use-cover-image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/use-cover-image.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +31,25 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SlavAbent&quot;
+  }
+}</component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
       <list>
         <option value="main" />
       </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ae0a7888-5e02-44b7-b166-45ea6ab4d662" />
+        <option name="url" value="https://github.com/SlavAbent/notion-clone.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,7 +68,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "cover-image",
+    "git-widget-placeholder": "advanced",
     "last_opened_file_path": "/Users/astoe1/WebstormProjects/petptojects/next/notionClone",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -140,6 +151,7 @@
       <workItem from="1700493815972" duration="74000" />
       <workItem from="1700539238028" duration="44000" />
       <workItem from="1700912186183" duration="4863000" />
+      <workItem from="1701181457572" duration="4235000" />
     </task>
     <task id="LOCAL-00001" summary="create sidebar">
       <option name="closed" value="true" />
@@ -205,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700387466940</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add cover image">
+      <option name="closed" value="true" />
+      <created>1701100794756</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701100794756</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +252,7 @@
     <MESSAGE value="add trash box" />
     <MESSAGE value="api convex" />
     <MESSAGE value="add Banner, Menu, Menu Skeleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Banner, Menu, Menu Skeleton" />
+    <MESSAGE value="add cover image" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cover image" />
   </component>
 </project>
