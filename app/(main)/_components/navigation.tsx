@@ -3,7 +3,7 @@
 import React, { ElementRef, useEffect, useRef, useState } from 'react';
 import { ChevronsLeft, MenuIcon, Plus, PlusCircle, Search, Settings, Trash } from "lucide-react";
 import { useMediaQuery } from "usehooks-ts";
-import { useParams, usePathname } from "next/navigation";
+import { useParams, usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { UserItem } from "@/app/(main)/_components/user-item";
 import { useMutation } from "convex/react";
@@ -22,6 +22,7 @@ import { useSettings } from "@/hooks/useSettings";
 import { Navbar } from "@/app/(main)/_components/navbar";
 
 export const Navigation = () => {
+  const router = useRouter()
   const search = useSearch()
   const settings = useSettings()
   const params = useParams()
@@ -107,13 +108,12 @@ export const Navigation = () => {
 		navbarRef.current.style.setProperty('left', "0")
 
 		setTimeout(() => setIsResetting(false), 300)
-
 	 }
 	}
 
 	const handleCreate = () => {
 	  const promise = create({title: 'Untitled'})
-
+		 .then((documentId) => router.push(`/documents/${documentId}`))
 
 	  toast.promise(promise, {
 		 loading: 'Creating a new note...',
