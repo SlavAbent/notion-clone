@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f3cde54-b8f8-4e03-aa88-99a0822ce494" name="Changes" comment="add cover image">
-      <change afterPath="$PROJECT_DIR$/components/editor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/error.tsx" afterDir="false" />
+    <list default="true" id="5f3cde54-b8f8-4e03-aa88-99a0822ce494" name="Changes" comment="advanced">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(main)/(routes)/documents/[documentId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(main)/(routes)/documents/[documentId]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(main)/(routes)/documents/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(main)/(routes)/documents/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(main)/_components/item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(main)/_components/item.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(main)/_components/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(main)/_components/navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/edgestore/[...edgestore]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/edgestore/[...edgestore]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cover.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/cover.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/modals/cover-image-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/modals/cover-image-modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/use-cover-image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/use-cover-image.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +140,7 @@
       <workItem from="1700493815972" duration="74000" />
       <workItem from="1700539238028" duration="44000" />
       <workItem from="1700912186183" duration="4863000" />
-      <workItem from="1701181457572" duration="4235000" />
+      <workItem from="1701181457572" duration="6167000" />
     </task>
     <task id="LOCAL-00001" summary="create sidebar">
       <option name="closed" value="true" />
@@ -225,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701100794756</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="advanced">
+      <option name="closed" value="true" />
+      <created>1701185806120</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701185806120</updated>
+    </task>
+    <task id="LOCAL-00011" summary="advanced">
+      <option name="closed" value="true" />
+      <created>1701185819182</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701185819182</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +258,7 @@
     <MESSAGE value="api convex" />
     <MESSAGE value="add Banner, Menu, Menu Skeleton" />
     <MESSAGE value="add cover image" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cover image" />
+    <MESSAGE value="advanced" />
+    <option name="LAST_COMMIT_MESSAGE" value="advanced" />
   </component>
 </project>
